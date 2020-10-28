@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity">Activity</string>
+    <string name="toastegg_normal">ToastEgg With Custom Background</string>
+    <string name="toastegg_with_background_and_icon">ToastEgg With Background and Icon</string>
+    <string name="fragment">Fragment</string>
+</resources>
