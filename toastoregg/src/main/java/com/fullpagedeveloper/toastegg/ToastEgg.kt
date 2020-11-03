@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.annotation.Nullable
 import androidx.core.content.ContextCompat
+import androidx.fragment.app.FragmentActivity
 import kotlinx.android.synthetic.main.toast_egg.view.*
 
 fun Context.toastOrEgg(
@@ -36,6 +37,14 @@ fun Context.toastOrEgg(
         Toast.LENGTH_LONG
     }
     toastEgg.show()
+}
+
+fun toastOrEgg2(context: Context){
+    Toast.makeText(context, "hiii", Toast.LENGTH_SHORT).show()
+}
+
+fun toastOrEgg2(context: FragmentActivity){
+    Toast.makeText(context, "hiii", Toast.LENGTH_SHORT).show()
 }
 
 fun Context.toastOrEgg(
